@@ -6,11 +6,6 @@ const fastify = Fastify({
   logger: true
 })
 
-// Root route
-fastify.get('/', async function handler (request, reply) {
-  return { hello: 'world' }
-})
-
 // All recipes endpoint
 fastify.get('/recipes/all', async function handler (request, reply) {
   try {
