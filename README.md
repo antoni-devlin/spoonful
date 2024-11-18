@@ -9,3 +9,8 @@ A recipe manager.
 
 /recipes/search
 
+TO ADD TO OPENAPI SPEC
+
+Responses for:
+- Catch-all error
+- Unauthorised
